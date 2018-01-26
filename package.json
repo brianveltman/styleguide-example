@@ -1,0 +1,17 @@
+{
+  "name": "styleguide-example",
+  "version": "1.0.0",
+  "description": "An example of a flexible styleguide using babel-plugin-import",
+  "repository": "git@github.com:brianveltman/styleguide-example.git",
+  "author": "Brian Veltman",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "lerna clean --yes && lerna bootstrap",
+    "start": "lerna run start",
+    "build": "lerna run build",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "2.5.1"
+  }
+}

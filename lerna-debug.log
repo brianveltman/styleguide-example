@@ -1,0 +1,42 @@
+0 silly input [ 'build' ]
+1 silly flags { _: [ 'run' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   script: 'build',
+1 silly flags   args: [] }
+2 verbose rootPath /Volumes/Data/Code/styleguide-example
+3 info version 2.5.1
+4 info versioning independent
+5 silly existsSync /Volumes/Data/Code/styleguide-example/VERSION
+6 silly initialize attempt
+7 silly initialize success
+8 silly execute attempt
+9 silly runScriptInDir build [] styleguide
+10 silly getExecOpts { cwd: '/Volumes/Data/Code/styleguide-example/packages/styleguide' }
+11 silly runScriptInDir build [] webapp
+12 silly getExecOpts { cwd: '/Volumes/Data/Code/styleguide-example/packages/webapp' }
+13 error build Errored while running script in 'webapp'
+14 error execute callback with error
+15 error Error: Command failed: npm run build
+15 error npm ERR! code ELIFECYCLE
+15 error npm ERR! errno 1
+15 error npm ERR! webapp@0.1.0 build: `react-app-rewired build`
+15 error npm ERR! Exit status 1
+15 error npm ERR!
+15 error npm ERR! Failed at the webapp@0.1.0 build script.
+15 error npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+15 error
+15 error npm ERR! A complete log of this run can be found in:
+15 error npm ERR!     /Users/BrianVeltman/.npm/_logs/2018-01-17T19_50_16_414Z-debug.log
+15 error
+15 error > webapp@0.1.0 build /Volumes/Data/Code/styleguide-example/packages/webapp
+15 error > react-app-rewired build
+15 error
+15 error Creating an optimized production build...
+15 error Failed to compile.
+15 error
+15 error Module not found: Error: Can't resolve 'styleguide/dist/button/style/css' in '/Volumes/Data/Code/styleguide-example/packages/webapp/src'
+15 error
+15 error
+15 error
+15 error     at Promise.all.then.arr (/Volumes/Data/Code/styleguide-example/node_modules/execa/index.js:236:11)

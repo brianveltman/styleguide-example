@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/button.js"],"names":["Button"],"mappings":";;;;;;;;;;;4BAASA,M","file":"button.js","sourcesContent":["export { Button as Button } from 'semantic-ui-react';"]}
